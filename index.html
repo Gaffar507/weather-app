@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base style</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/142e6b7a15.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-header">
+        <span class="weather-icon"><i class="fa-solid fa-cloud"></i> </span>
+        <h1 class="header-text">Explore Weather</h1>
+        <span class="weather-icon"><i class="fa-solid fa-cloud"></i></span>
+      </div>
+      <div class="weather-container">
+        <form id="weather-form">
+          <input
+            class="weather-input"
+            type="text"
+            placeholder="Search weather by location"
+          /><button id="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <div class="info-weather-container"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
